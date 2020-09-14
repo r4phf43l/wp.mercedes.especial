@@ -1,0 +1,21 @@
+/* CSS Document */
+@media only screen and (min-width:1000px){
+.site-header, .featsc { width: 980px !important }
+.featsc, .img_feat { height:350px }
+#sidebar-block3 { margin-left:26px !important }
+	.home_thumbs #menu-teaser { width: 752px }
+}
+
+@media only screen and (min-width: 1044px) {
+.blog .main, .archive .main, .search .main, .entry {
+    width: 980px !important;
+}
+.site-footer, .comments, #disqus_thread { max-width: 960px !important }
+.entry .entry-container { width:684px }	
+}
+
+.design-credit { float:right }
+
+@media only screen and (max-width: 999px) and (min-width: 768px) {
+	.home_thumbs #menu-teaser div > div {  margin-right: 16px }	
+}
